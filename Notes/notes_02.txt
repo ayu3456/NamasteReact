@@ -60,7 +60,7 @@ you have to change PACKAGE.json for that
     "last 2 chrome version",
     "last 2 firefox version"
 ]
-baki kisi me chale 
+
 
 
 
