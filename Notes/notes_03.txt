@@ -1,0 +1,59 @@
+to run the app cmd are -> 
+npm parcel index.html, 
+npm parcel build index.html.
+
+we should the script in package.json to make it easy to run. 
+
+React.createElement => Object when we render on DOM => It become an HTML Element.
+
+React package is used only on creating element for displaying it to web we need ReactDom
+
+this syntax is very bad. it is very clumsy. It is also not very developer friendly. 
+therefore react developer create jsx whose syntax is similar to HTML.
+
+JSX is not the part of react. 
+we can write react without jsx. It is type of convention where we merge html and js.  
+
+JS code is such that code any js engine understand. 
+can js engine understand jsx code ?? NO 
+this is not valid JS. when you run on browser you will get error. 
+
+jsx code -> transpiled (done by parcel) -> then goes to js engine.
+Parcel itself is not doing transpilation. it is done by babel. 
+
+babel is JS compiler.it converts the JSX code that browser understand. 
+jsx (babel) => React.createElement => ReactElement(JS Object) => HTML element. 
+
+any attribute written in jsx is in CamelCase. 
+
+// React Component 
+// Class based Component (old way)
+// Functional Component (new way) 
+
+Functional component -> it is just a normal js function which return a react element
+
+inside the Functional Component you can write any JS code inside the curly bracket. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

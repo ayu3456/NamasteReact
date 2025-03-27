@@ -61,6 +61,10 @@ you have to change PACKAGE.json for that
     "last 2 firefox version"
 ]
 
+to run the app. -> cmd -> npx parcel index.html -> make script in package.json
+
+
+
 
 
 

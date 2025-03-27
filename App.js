@@ -1,35 +1,35 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-import React from "react";
-import ReactDOM from "react-dom/client";
+// React.createElement => ReactElement - JS Object => HTML Element(render)
 
-const h1 = React.createElement("h1", { key: "h1" }, "This is h1");
-const h2 = React.createElement("h2", { key: "h2" }, "This is h2");
-const h3 = React.createElement("h3", { key: "h3" }, "This is h3");
-const h4 = React.createElement("h4", { key: "h4" }, "This is h4");
-const h5 = React.createElement("h5", { key: "h5" }, "This is h5");
-const h6 = React.createElement("h6", { key: "h6" }, "This is h6");
+const element = <span>React Element</span>
 
+const title = 
+<h1 className="heading">
+    Heading using JSX
+    {element}
+</h1>;
+//this title is also a normal js variable. if we want to use this variable inside the js
+//use it inside the js.
 
-const child1 = React.createElement("div", { id: "child1", key: "child1" }, [h1, h2, h3]);
-const child2 = React.createElement("div", { id: "child2", key: "child2" }, [h4, h5, h6]);
+// it is in single line. if it is in multiple line you have to wrap it with()
+// jsx => React.createElement => ReactElement(JS Object) => HTML element
 
+// React Component
+// Class based component
+// Functional component -> it is just a normal js function which return a react element
 
-const parent = React.createElement("div", { id: "parent" }, [child1, child2]);
+const number = 10000;
+
+// This is Component Compostion
+const HeadingComponent = () => (
+  <div id="container">
+    <h2>{number * 23}</h2>
+    {title}
+    <h1 className="heading">This is a react heading component</h1>
+  </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
-
-
-// this is core of react. we will be using this for the last time.... 
-
-
-
-
-
-
-
-
-
-
+root.render(<HeadingComponent />);
