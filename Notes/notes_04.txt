@@ -18,5 +18,18 @@ COMPONENT:
     -LINKS 
     -ADDRESS 
 
-Inline Styles in react are given in the form of JS Object and if u want to apply any inline style u need {} to write using style attribute. 
+Inline Styles in react are given in the form of JS Object and if u want to apply any inline style u need {} to write using style attribute.  
+
+How we can make our card dynamic ? 
+first card -> meghna food 
+second card should be of kfc 
+
+YAHA PAR AATA HAI PROPS KA CONCEPT (PROPS = PROPERTY) 
+PROPS ARE THE SOMETHING THAT YOU CAN PASS TO THE COMPONENT.
+
+COMPONENT KYA HAI -> JS FUNCTION HAI. 
+WAISE HI PROPS KYA -> ARGUMENTS HAI.
+
+
+
 
