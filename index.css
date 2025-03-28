@@ -1,16 +1,35 @@
-.heading{
-    color: red;
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
 }
 
-#parent{
-    background-color: aquamarine;
+.logo{
+    width: 200px;
 }
 
-#child{
-    background-color: bisque;
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px 20px;
+    font-size: 30px;
+    
 }
 
-h1{
-    color: darkolivegreen;
+.nav-items > ul > li {
+    margin: 10px;
+    padding: 10px;
 }
+
+.res-card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black
+}
+
+.search{
+    padding: 10px;
+}
+
 

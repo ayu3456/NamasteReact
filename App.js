@@ -1,35 +1,82 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// React.createElement => ReactElement - JS Object => HTML Element(render)
+/*
+COMPONENT:
+1): HEADER
+    - LOGO 
+    - LINKS (NAV ITEMS)
 
-const element = <span>React Element</span>
+2): BODY: 
+    -SEARCH
+    -RESTURANT CONTAINER 
+        -RESTURANT CARDS 
+          -image , name of resturant ,star rating , cuisines etc 
+          
 
-const title = 
-<h1 className="heading">
-    Heading using JSX
-    {element}
-</h1>;
-//this title is also a normal js variable. if we want to use this variable inside the js
-//use it inside the js.
+3): FOOTER 
+    -COPYRIGHT 
+    -LINKS 
+    -ADDRESS 
 
-// it is in single line. if it is in multiple line you have to wrap it with()
-// jsx => React.createElement => ReactElement(JS Object) => HTML element
+*/
 
-// React Component
-// Class based component
-// Functional component -> it is just a normal js function which return a react element
+const Header = () => {
+  return (
+    <div className="header">
+      <div className="logo-container">
+        <img
+          className="logo"
+          src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?nwm=1&nws=1&industry=fast-food&sf=&txt_keyword=All"
+        />
+      </div>
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
 
-const number = 10000;
+const styleCard = {
+  backgroundColor: "#f0f0f0"
+}
 
-// This is Component Compostion
-const HeadingComponent = () => (
-  <div id="container">
-    <h2>{number * 23}</h2>
-    {title}
-    <h1 className="heading">This is a react heading component</h1>
-  </div>
-);
+// InLine Style are given in the form of JS objects.
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<HeadingComponent />);
+const ResturantCard = () => {
+  return (
+    <div className="res-card" style={styleCard}>
+      <h3> Meghna Foods </h3>
+    </div>
+  )
+
+}
+
+const Body = () => {
+  return (
+    <div className="body">
+      <div className="search">Search</div> 
+      <div className="res-container"></div>
+        <ResturantCard/>
+    </div>
+  )
+
+}
+
+
+
+const Applayout = () => {
+  return <div className="app">
+    <Header/>
+    <Body/>
+
+  </div>;
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<Applayout/>);

@@ -1,0 +1,22 @@
+HOW DOES A REACT APP BUILD ?? WHAT IS THE THOUGHT PROCESS BEHIND THE WEBAPP ?
+A: EXPLORE THE APP -> PLANNING (IF YOUR PLANNING IS GOOD CODE IS VERY EASY)
+
+PLANNING -> WHAT YOU ARE GOING TO BUILD (YE PATA HONA CHAHIYE) -> UI DESIGN MOCK 
+
+COMPONENT:
+1): HEADER
+    - LOGO 
+    - LINKS (NAV ITEMS)
+
+2): BODY: 
+    -SEARCH
+    -RESTURANT CONTAINER 
+        -RESTURANT CARDS  
+
+3): FOOTER 
+    -COPYRIGHT 
+    -LINKS 
+    -ADDRESS 
+
+Inline Styles in react are given in the form of JS Object and if u want to apply any inline style u need {} to write using style attribute. 
+
