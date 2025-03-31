@@ -30,6 +30,32 @@ PROPS ARE THE SOMETHING THAT YOU CAN PASS TO THE COMPONENT.
 COMPONENT KYA HAI -> JS FUNCTION HAI. 
 WAISE HI PROPS KYA -> ARGUMENTS HAI.
 
+CONFIG DRIVEN UI -> eg: Different OFFERS ARE THERE IN Different CITES . SO COROUSEL MAY CHANGE. THERE MIGHT BE CHANCE THAT THERE IS NO COROUSEL.(NO OFFERS)
+
+OUR WEBSITE IS DRIVEN BY DATA. 
+CONTROLLING THE UI USING DATA(CONFIG) WHICH IS COMING FROM BACKEND.  
+
+Always give key while looping. Why ?? 
+Ans: If u dont pass the keys react will re-render Everything. It helps in Optimisation of Webpage. It does not know which card is new here. 
+Some people use index as a key. but react says never use index as key 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

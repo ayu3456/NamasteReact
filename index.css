@@ -14,7 +14,6 @@
     list-style-type: none;
     padding: 0px 20px;
     font-size: 30px;
-    
 }
 
 .nav-items > ul > li {
@@ -23,17 +22,14 @@
 }
 
 .res-card{
-    width: 250px;
-    height: 400px;
+    width: 350px;
     padding: 5px;
-    margin: 5px;
-    
+    margin: 5px;  
 }
 
 .res-card:hover{
     border: 1px solid black;
     cursor: pointer;
-
 }
 
 .search{
