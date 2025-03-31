@@ -1,0 +1,24 @@
+UI Library and Framework make developer experience easy. It help us doing a lot of work in very less code. 
+
+Make Separate Files for Separate Component.
+
+We are going to learn react Hook 
+
+Never write any hardcoded data in the component folder.  
+
+there are two types of export/import. 
+one is when u have to export single function -> export default component name 
+other way is  when u have to export multiple functions -> named export ka use karte hai. 
+
+write export in front of variable and constants. 
+named wale import ke samne {} lagte hai. 
+
+eg export const Component;
+import {Component} from "path"
+
+
+
+
+
+
+

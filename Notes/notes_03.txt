@@ -2,6 +2,36 @@ to run the app cmd are ->
 npm parcel index.html, 
 npm parcel build index.html.
 
+/*
+COMPONENT:
+1): HEADER
+    - LOGO 
+    - LINKS (NAV ITEMS)
+
+2): BODY: 
+    -SEARCH
+    -RESTURANT CONTAINER 
+        -RESTURANT CARDS 
+          -image , name of resturant ,star rating , cuisines etc 
+          
+
+3): FOOTER 
+    -COPYRIGHT 
+    -LINKS 
+    -ADDRESS 
+
+*/
+
+// const styleCard = {
+//   backgroundColor: "#f0f0f0",
+// };
+
+// In-Line Style are given in the form of JS objects.
+
+// you can do destructuring it
+
+
+
 we should the script in package.json to make it easy to run. 
 
 React.createElement => Object when we render on DOM => It become an HTML Element.
