@@ -16,6 +16,38 @@ named wale import ke samne {} lagte hai.
 eg export const Component;
 import {Component} from "path"
 
+Now we are going to make our website interactive (dynamic).
+Handle a Click-Event onClick = {cb function}
+
+How is the website become dynamic ?
+onclick of the button if the data getting changed data increases or desceses. 
+
+DATA HAI RESLIST ME -> RESLIST KO CHANGE KARNE PAR WEBPAGE CHANGE HO JAYEGA.
+TO HAM FILTER KARENGE RESLIST. AUR DATA KAM KARENGE. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
