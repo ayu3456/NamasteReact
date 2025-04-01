@@ -1,10 +1,11 @@
-import ResturantCard from "./ResturantCard";
 import data from "../../utils/mockData";
-import { useState } from "react";
+import ResturantCard from "./ResturantCard";
+import { useState } from "react"; // import like a named import.
 
 const Body = () => {
-  const [listOfResturant, setListOfResturant] = useState(data);
-  
+  // Local State Variable - Some powerful Variable (Hooks)
+  const [listOfResturants, setListOfResturants] = useState(data);
+
   return (
     <div className="body">
       <div className="btns">
@@ -12,10 +13,10 @@ const Body = () => {
           <button
             className="filter-btn"
             onClick={() => {
-              const filteredData = data.filter(
+              const filteredData = listOfResturants.filter(
                 (res) => res.info.avgRating > 4.5
               );
-              setListOfResturant(filteredData);
+              setListOfResturants(filteredData)
             }}
           >
             Top-Rated Resturant
@@ -23,19 +24,14 @@ const Body = () => {
         </div>
 
         <div className="refresh">
-          <button
-            className="refresh-btn"
-            onClick={() => {
-              setListOfResturant(data);
-            }}
-          >
-            Refresh
-          </button>
+          <button className="refresh-btn" onClick={()=>{
+            setListOfResturants(data)
+          }}>Refresh</button>
         </div>
       </div>
 
       <div className="res-container">
-        {listOfResturant.map((resturant) => (
+        {listOfResturants.map((resturant) => (
           <ResturantCard key={resturant.info.id} resData={resturant} />
         ))}
       </div>

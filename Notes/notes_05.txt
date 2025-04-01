@@ -23,7 +23,67 @@ How is the website become dynamic ?
 onclick of the button if the data getting changed data increases or desceses. 
 
 DATA HAI RESLIST ME -> RESLIST KO CHANGE KARNE PAR WEBPAGE CHANGE HO JAYEGA.
-TO HAM FILTER KARENGE RESLIST. AUR DATA KAM KARENGE. 
+TO HAM FILTER KARENGE RESLIST. AUR DATA KAM KARENGE.  
+
+seekhne ke liye sabse pahele ek listOfResturant name ka ek js variable banaya .usme mock data dala,fir usse map function ka use karke render karaya . button ke on click par 
+filter ka logic likha hai. aur fir use console kara ke dekha hai. 
+
+console par data to filter ho gaya par UI update nahi hua hai. why ?? 
+
+Jab listOfResturant change ho raha hai to UI update kyu nahi ho raha hai. 
+Yahi kam react karke deta hai. (Agar ham bolrahe hai react Fast hai to react dom manipulation me fast hai)
+
+React makes data layer consistent with UI layer. 
+- Faster and Efficient DOM Manipulation. 
+
+To do this react gives us SuperPower (Hooks)
+
+Q: What is a React Hook ? 
+A: Normal JS function which is given to us by react.Function which has some logic written behind the scene. 
+
+There are two very important hooks 
+1: useState() -> SuperPower State Variable in React. 
+2: useEffect() -> 
+
+Q: Why it is called State Variable ? 
+A: because it maintain the state of our application. Scope iska bhi inside the component hoga. 
+
+when u call the useState hook is give a state variable . you have to recieve it inside a array. 
+
+eg const [listOfResturants,setListOfResturants] = useState(# yaha par default value jati hai);
+
+modify(update) karne ke liye hame ek function (setListOfResturants) ki need hoti hai. 
+
+we will call the setListOfResturant and pass the new data we wish to add. 
+
+WHENEVER THE State Variable CHANGE REACT RE-render THE COMPONENT.
+
+React is only good at dom operations . bahut jaldi dom operations karta hai. 
+It keeps the data layer in sync with UI Layer. 
+
+NOW WE ARE GOING TO LEARN MORE ABOUT REACT SuperPowers? 
+1: Reconciliation Algo (React Fibre) - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
