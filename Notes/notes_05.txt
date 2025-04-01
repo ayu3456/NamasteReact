@@ -62,7 +62,7 @@ React is only good at dom operations . bahut jaldi dom operations karta hai.
 It keeps the data layer in sync with UI Layer. 
 
 NOW WE ARE GOING TO LEARN MORE ABOUT REACT SuperPowers? 
-1: Reconciliation Algo (React Fibre) - 
+1: Reconciliation Algo (React Fibre) - copy me likha hai
 
 
 
