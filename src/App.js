@@ -3,10 +3,6 @@ import ReactDOM from "react-dom/client";
 import Body from "./components/Body";
 import Header from "./components/Header";
 
-
-
-
-
 const Applayout = () => {
   return (
     <div className="app">

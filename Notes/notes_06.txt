@@ -1,0 +1,52 @@
+Earlier we learnt about monolithic and microservice architechture. 
+Notes are in textcopy. 
+
+Now we are going to fetch the from the swiggy live api and render the data into frontend. 
+
+2 Approaches for fetching the data. 
+
+1: As soon as our webpage loads we make an api call to fetch the data.
+    LOADS -> API -> RENDER (suppose it takes 500ms to render)
+    then our page will wait for 500ms then render the UI. Our page will be frozen till 500ms.
+
+2:  LOADS -> RENDER -> API 
+    We will re-render the app with new Data and populate the app with data from the     backend.
+
+Q: We will be using 2nd approach why ? 
+A: Better User Experience. Some portion is visible from the beginning. Although it render the cycle twice but react's render cycle are very fast. 
+
+* INTRODUCTION TO USEFFECT HOOK.
+     It has two arguments, 
+     1. Callback function
+     2. Dependency Array. 
+
+useEffect(()=>{},[]) 
+when will this useEffect callback function is called ? 
+the useEffect is called after the component renders (e.g) when the body component loads
+
+when the body component loads as soon as render cycle is finished this callback fn is called.  
+
+we have succussfully made an api call and render the data on the ui.
+
+now we can delete the mockData
+
+Api are taking some time to load to enhance the user Experience. 
+Loader laga do. 
+
+But we are using Shimmer UI to increase the User Experience. We will create a fake cards to display the UI until the data is not present. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
