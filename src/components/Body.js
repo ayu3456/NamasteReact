@@ -28,7 +28,7 @@ const Body = () => {
     fetchData();
   }, []);
 
-  return listOfResturants.length === 0 ? (
+  return filteredResturant.length === 0 ? (
     <Shimmer />
   ) : (
     <div className="body">
