@@ -4,10 +4,7 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfResturants, setListOfResturants] = useState([]);
-  const [filteredResturant,setFilteredResturant] = useState([]);
-
-
-
+  const [filteredResturant, setFilteredResturant] = useState([]);
 
   const [searchText, setSearchText] = useState("");
 
@@ -18,10 +15,15 @@ const Body = () => {
 
     const json = await data.json();
 
+    //console.log(json);
+
     setListOfResturants(
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
-    setFilteredResturant(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setFilteredResturant(
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    );
+    console.log(listOfResturants);
   };
 
   useEffect(() => {
