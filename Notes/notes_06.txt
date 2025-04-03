@@ -35,6 +35,70 @@ Loader laga do.
 
 But we are using Shimmer UI to increase the User Experience. We will create a fake cards to display the UI until the data is not present. 
 
+Login Logout button features and how does it changes in UI. (it will clear the more concepts of UseState). 
+
+when we click on the login btn it should change to logout.
+
+we have implemented login - logout toggle featues 
+-> react will re-render the whole header component again. 
+
+we use const [btnName] = how a const value is getting changed ? 
+when u are rerendering the component this btnName Variable is a new Variable. 
+
+SETBTNNAME() -> RE-RENDER -> NAYA Variable BANATA HAI WITH SAME NAME.
+NEW Variable IS FORMED WITH UPDATED VALUE OF USING THAT function. 
+
+THE LOGO IS NOT GETTING REFRESHED BECAOUSE OF DIFF ALGO. 
+
+WE ARE GOING TO MAKE SEARCH FUNCTIONALITY. WOOHHOOOOOOOO(Very important)
+
+**To take the data from the input box . I need the attribute named `value` and we need to bind that with local state Variable. 
+
+maine sirf abhi value likha aur usko state Variable SEARCH-text se link kiya. error aaya ki readonly page ban gaya kyu ??  I am typing and nothing is happening. why ?? 
+
+we have bind the input box with the SearchText . there fore what is in the varible should be inside the inputbox. 
+
+When we are changing the value of search text , value is still tied to searchtext and search text is empty. nothing can be seen on the screen. 
+
+when we type some text it should update the searchText. so we will use onchange((e)=>{setSearchText(e.target.value)}) method to update it. 
+
+WHEN U CHANGE THE Local State Variable, REACT RE-RENDER THE component. (triggers the reconciliation cycle).
+
+when u are changing even the a single letter the whole component is getting rerender. 
+
+React does the rendering very efficiently (efficient DOM manipulation).
+
+React is triggering the reconciliation cycle . it is finding the differnce between the older virtual DOM and the Newer virtual DOM. 
+
+
+It re-render the whole component and update the exact changes which are the difference between the older virtual DOM and the Newer virtual DOM.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

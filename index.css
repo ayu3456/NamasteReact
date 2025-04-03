@@ -69,3 +69,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.login-btn{
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
