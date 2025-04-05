@@ -23,7 +23,7 @@ const Body = () => {
     setFilteredResturant(
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
-    console.log(listOfResturants);
+    //console.log(listOfResturants);
   };
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const Body = () => {
               const filteredData = listOfResturants.filter(
                 (res) => res.info.avgRating > 4.5
               );
-              setListOfResturants(filteredData);
+              setFilteredResturant(filteredData);
             }}
           >
             Top-Rated Resturant
