@@ -30,6 +30,65 @@ in the '/' route u can add error element.
 
 React router dom gives u a hook named `useRouteError` which will helps in getting more info about the errors 
 
+# Now we are going to study More about children routes. 
+
+- header should always be on our app. in each component. (it will stay intact).
+* one way is that you import header in about page and render it. 
+* we are going to learn about `Outlet Method`. 
+
+Yaha par children routes ki need padegi. '/' path me. 
+
+children routes banaye. 
+outlet import kiya. 
+
+* whenever there is change in the path , this outlet will be filled with the children routes autometically. 
+
+Linking different pages 
+1: use anchor tag. it will work but never use it.  It will refresh the whole page. 
+
+We can navigate to new page without refeshing the whole page !!! 
+we will use Link component to do this . My page wont be reload. it is just changing the components.  THIS IS REASON WHY REACT WEBSITE ARE KNOWN AS SINGLE PAGE APPLICATION. 
+
+* There are 2 types of Routing are there in our Web Apps.
+
+1: Client Side routing 
+2: Server Side routing 
+
+# Now we are going to implement dynamic routes for each resturant. 
+
+* wrapper create karna -> dynamic id pass karna -> check karo ki kuch dikh raha hai ya nahi 
+use /id me fir Resturant menu wala page banana 
+
+data fetch kiya on the basis on dynamic id and display on the ui
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
