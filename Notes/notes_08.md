@@ -74,7 +74,46 @@ child1 component did mount
 child2 component did mount 
 child3 component did mount 
 
-parent component did mount
+parent component did mount 
+
+
+In the updating phase react trigger the render once again.
+It update the dom with the new value. 
+
+then it calls the `component did update`.  
+
+# Life Cycle of a React component 
+
+Mounting 
+
+Contructor(Dummy data)
+Render (Dummy Data)
+    HTML (Dummy) 
+
+component did mount
+Api call 
+this.setState -> State Variable is Updated  
+
+Update 
+
+render(Api data)
+HTML with Api data 
+
+component did update is called 
+`Component will unmount` this is called just before the component will unmount. 
+when u go to different page 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

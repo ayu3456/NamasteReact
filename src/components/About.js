@@ -1,5 +1,7 @@
 import React from "react";
 import UserClass from "./UserClass";
+import User from "./User";
+
 
 // fetch the data from github api and show the data over here.
 
@@ -9,21 +11,22 @@ class About extends React.Component {
   constructor(props) {
     super(props);
 
-    console.log("parent constructor is called");
+    //console.log("parent constructor is called");
   }
 
   componentDidMount(){
-    console.log("Parent component did mount")
+    //console.log("Parent component did mount")
   }
 
   render() {
-    console.log("parent render is called");
+    //console.log("parent render is called");
     return (
       <div>
         <h1>About US</h1>
         <h2>This is Namaste React Web Series</h2>
-        <UserClass name={"Ayush Gupta (class)"} location={"Unnao Class"} />
-        <UserClass name={"Janhvi Yadav (class)"} location={"Kanpur Class"} />
+        //
+        <User/>
+        
       </div>
     );
   }
