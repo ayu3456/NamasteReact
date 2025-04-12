@@ -31,9 +31,7 @@ const Body = () => {
     fetchData();
   }, []);
 
-  return filteredResturant.length === 0 ? (
-    <Shimmer />
-  ) : (
+  return (
     <div className="body">
       <div className="btns">
         <div className="search">
