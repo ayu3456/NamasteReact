@@ -2,6 +2,7 @@ import ResturantCard from "./ResturantCard";
 import { useEffect, useState } from "react"; // import like a named import.
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../../utils/useOnlineStatus";
 
 const Body = () => {
   const [listOfResturants, setListOfResturants] = useState([]);
@@ -30,6 +31,10 @@ const Body = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
+  const onlineStatus = useOnlineStatus();
+
+  if (onlineStatus === false) return <h1>No Internet Connnection.</h1>;
 
   return (
     <div className="body">
