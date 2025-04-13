@@ -9,12 +9,12 @@ const Header = () => {
   const [btnName, setBtnName] = useState("Login");
 
   return (
-    <div className="header">
+    <div className="flex bg-amber-100">
       <div className="logo-container">
-        <img className="logo" src={LOGO_URL} />
+        <img className="w-34" src={LOGO_URL} />
       </div>
-      <div className="nav-items">
-        <ul>
+      <div>
+        <ul className="flex flex-row ">
           <li>
             Online Status:
             {onlineStatus ? '✅' : '❌'}

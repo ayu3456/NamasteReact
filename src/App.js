@@ -2,6 +2,8 @@ import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import Body from "./components/Body";
 import Header from "./components/Header";
+import './styles.css'; // or whatever your CSS file is named
+
 import ResturantMenu from "./components/ResturantMenu";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 // import About from "./components/About";
