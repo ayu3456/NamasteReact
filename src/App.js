@@ -15,7 +15,7 @@ import Error from "./components/Error";
 
 const Grocery = lazy(() => import("./components/grocery"));
 
-const About = lazy(()=>import("./components/About"))
+const About = lazy(() => import("./components/About"));
 //these both import are different
 // function given to us by react.
 
@@ -39,7 +39,11 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <About />,
+        element: (
+          <Suspense fallback={<h1>Loading...</h1>}>
+            <About />
+          </Suspense>
+        ),
       },
       {
         path: "/contact",
@@ -52,7 +56,7 @@ const appRouter = createBrowserRouter([
       {
         path: "/grocery", // to give dynamic path.
         element: (
-          <Suspense fallback = {<h1>Loading...</h1>}>
+          <Suspense fallback={<h1>Loading...</h1>}>
             <Grocery />
           </Suspense>
         ),
