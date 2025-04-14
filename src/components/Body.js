@@ -42,8 +42,7 @@ const Body = () => {
 
   if (!listOfResturants.length) return <Shimmer />;
 
-  console.log(listOfResturants);
-
+  
   return (
     <div className="body">
       <div className="filter flex items-center">
@@ -106,8 +105,10 @@ const Body = () => {
           <h2>No restaurants found</h2>
         )}
       </div>
+
     </div>
   );
 };
+
 
 export default Body;

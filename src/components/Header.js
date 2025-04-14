@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { LOGO_URL } from "../../utils/constants";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../../utils/useOnlineStatus";
@@ -15,24 +15,24 @@ const Header = () => {
       </div>
       <div className="flex items-center">
         <ul className="flex p-4 m-4">
-          <li className="px-4 text-2xl">
+          <li className="px-4 text-2xl hover:bg-pink-500 rounded-lg">
             Online Status:
             {onlineStatus ? '✅' : '❌'}
           </li>
 
-          <li className="px-4 text-2xl">
+          <li className="px-4 text-2xl  hover:bg-pink-500 rounded-lg">
             <Link to="/">Home</Link>
           </li>
-          <li className="px-4 text-2xl">
+          <li className="px-4 text-2xl  hover:bg-pink-500 rounded-lg">
             <Link to="/about">About Us</Link>
           </li>
-          <li className="px-4 text-2xl">
+          <li className="px-4 text-2xl  hover:bg-pink-500 rounded-lg">
             <Link to="/contact">Contact</Link>
           </li>
-          <li className="px-4 text-2xl">
+          <li className="px-4 text-2xl  hover:bg-pink-500 rounded-lg">
             <Link to="/grocery">Grocery</Link>
           </li>
-          <li className="text-2xl px-4">Cart</li>
+          <li className="text-2xl px-4  hover:bg-pink-500 rounded-lg">Cart</li>
           <button
             className="text-2xl bg-green-200 rounded-lg px-4 py-1 "
             onClick={() => {
