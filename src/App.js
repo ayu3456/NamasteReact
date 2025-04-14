@@ -1,8 +1,8 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Body from "./components/Body";
 import Header from "./components/Header";
-import './styles.css'; // or whatever your CSS file is named
+import "./styles.css"; // or whatever your CSS file is named
 
 import ResturantMenu from "./components/ResturantMenu";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
@@ -10,6 +10,7 @@ import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Contact from "./components/Contact";
 
 import Error from "./components/Error";
+import UserContext from "../utils/UserContext";
 // import Grocery from "./components/grocery";
 // we can import Grocery using lazy loading. to reduce the bundle size.
 
@@ -21,12 +22,32 @@ const About = lazy(() => import("./components/About"));
 //these both import are different
 // function given to us by react.
 
+
+
+
+
 const Applayout = () => {
+
+  const [userName,setUserName]  = useState(null);
+
+  useEffect(()=>{
+    const data = {
+      name:"Ayush Gupta"
+    }
+    setUserName(data.name)
+  },[])
+
+
+
+
+
   return (
-    <div className="app">
-      <Header />
-      <Outlet />
-    </div>
+    <UserContext.Provider value={{ loggedInUser: userName }}>
+      <div className="app">
+        <Header />
+        <Outlet />
+      </div>
+    </UserContext.Provider>
   );
 };
 

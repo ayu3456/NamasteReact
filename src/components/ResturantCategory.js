@@ -6,7 +6,7 @@ const ResturantCategory = ({ data, showItems, setShowIndex }) => {
     setShowIndex();
   };
 
-  //console.log(data);
+  
   return (
     <div>
       {/* Header */}
@@ -22,7 +22,7 @@ const ResturantCategory = ({ data, showItems, setShowIndex }) => {
           <span>{"🔽"}</span>
         </div>
 
-        {showItems && <ItemList items={data.itemCards} />}
+        {showItems && <ItemList items={data.itemCards}/>}
       </div>
     </div>
   );

@@ -16,7 +16,14 @@ At any moment , only one should open.
 
 Controlled and uncontrolled components 
 
-uncontrolled components , they have their own state and independent of the parent. controlled components are controlled by their parent.
+uncontrolled components , they have their own state and independent of the parent. controlled components are controlled by their parent. 
+
+React Context = data for anybody can access anywhere , it avoid prop drilling. 
+eg: Login Data 
+
+
+
+
 
 
 

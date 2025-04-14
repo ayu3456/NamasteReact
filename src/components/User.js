@@ -7,12 +7,12 @@ const User = (props) => {
     // api calls 
 
     const timer = setInterval(()=>{
-        console.log("Namaste React Op")
+        //console.log("Namaste React Op")
     },1000);
 
     return () =>{
         clearInterval(timer);
-        console.log("UseEffect Return");
+       //console.log("UseEffect Return");
     }
 
     

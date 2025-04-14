@@ -33,28 +33,19 @@ class UserClass extends React.Component {
     //   userInfo: json,
     // });
 
-    this.timer = setInterval(()=>{
-        console.log("Interval called")
-    },1000);
-
-    
-
-
-
+    this.timer = setInterval(() => {
+      //console.log("Interval called")
+    }, 1000);
   }
 
-  componentDidUpdate(prevProps,prevState){
-    
-
-   
-    console.log("Component did update");
-    
+  componentDidUpdate(prevProps, prevState) {
+    //console.log("Component did update");
   }
 
-  componentWillUnmount(){
-    console.log("Component will unmount");
-    // clear interval in this. 
-    // this is shared between all the functions of the class. 
+  componentWillUnmount() {
+    //console.log("Component will unmount");
+    // clear interval in this.
+    // this is shared between all the functions of the class.
 
     clearInterval(this.timer);
   }
@@ -66,13 +57,10 @@ class UserClass extends React.Component {
     const { name, location, avatar_url } = this.state.userInfo;
 
     return (
-
       <div className="user-card">
-
         <h2>Name:{name}</h2>
         <h3>Location:{location}</h3>
         <img src={avatar_url}></img>
-
       </div>
     );
   }
@@ -81,8 +69,7 @@ class UserClass extends React.Component {
 // This is the way to tell react that this is the react component.
 // we will have render method to return a piece of jsx which will render on the UI.
 // this class has a contructor and this contructor will recieve the props.
-// the state object has multiple variables the setState function only update the varible 
-//which are passed inside the setState function.  It find the diff btw the two objects. 
-
+// the state object has multiple variables the setState function only update the varible
+//which are passed inside the setState function.  It find the diff btw the two objects.
 
 export default UserClass;

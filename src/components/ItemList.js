@@ -1,8 +1,8 @@
 import React from "react";
 import { CDN_URL } from "../../utils/constants";
 
-const ItemList = ({ items }) => {
-  //console.log(items);
+const ItemList = ({ items}) => {
+
   return (
     <div>
       {items.map((item) => (
