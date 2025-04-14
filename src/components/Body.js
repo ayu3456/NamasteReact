@@ -1,6 +1,4 @@
-
-
-import ResturantCard from "./ResturantCard";
+import ResturantCard, { withOpenedLabel } from "./ResturantCard";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -10,6 +8,8 @@ const Body = () => {
   const [listOfResturants, setListOfResturants] = useState([]);
   const [filteredResturant, setFilteredResturant] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  const ResturantCardOpened = withOpenedLabel(ResturantCard);
 
   const fetchData = async () => {
     try {
@@ -41,6 +41,8 @@ const Body = () => {
   if (onlineStatus === false) return <h1>No Internet Connection.</h1>;
 
   if (!listOfResturants.length) return <Shimmer />;
+
+  console.log(listOfResturants);
 
   return (
     <div className="body">
@@ -89,7 +91,15 @@ const Body = () => {
               key={resturant.info.id}
               to={"/resturants/" + resturant.info.id}
             >
-              <ResturantCard resData={resturant} />
+              {
+                /** if the resturant is opened u have to display opened here. */
+
+                resturant.info.isOpen ? (
+                  <ResturantCardOpened resData={resturant} />
+                ) : (
+                  <ResturantCard resData={resturant} />
+                )
+              }
             </Link>
           ))
         ) : (
