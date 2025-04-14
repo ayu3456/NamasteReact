@@ -1,13 +1,16 @@
 import ResturantCard, { withOpenedLabel } from "./ResturantCard";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../../utils/useOnlineStatus";
+import UserContext from "../../utils/UserContext";
 
 const Body = () => {
   const [listOfResturants, setListOfResturants] = useState([]);
   const [filteredResturant, setFilteredResturant] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   const ResturantCardOpened = withOpenedLabel(ResturantCard);
 
@@ -42,7 +45,6 @@ const Body = () => {
 
   if (!listOfResturants.length) return <Shimmer />;
 
-  
   return (
     <div className="body">
       <div className="filter flex items-center">
@@ -81,6 +83,14 @@ const Body = () => {
             Top-Rated Resturant
           </button>
         </div>
+
+        <div>
+          <label>UserName:</label>
+          <input
+            onChange={(e) => setUserName(e.target.value)}
+            value={loggedInUser}
+          />
+        </div>
       </div>
 
       <div className="flex flex-wrap">
@@ -105,10 +115,8 @@ const Body = () => {
           <h2>No restaurants found</h2>
         )}
       </div>
-
     </div>
   );
 };
-
 
 export default Body;
