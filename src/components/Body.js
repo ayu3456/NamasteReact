@@ -85,8 +85,9 @@ const Body = () => {
         </div>
 
         <div>
-          <label>UserName:</label>
+          <label className="text-xl">UserName:</label>
           <input
+          className="p-2 m-4 font-bold text-xl border-black"
             onChange={(e) => setUserName(e.target.value)}
             value={loggedInUser}
           />
