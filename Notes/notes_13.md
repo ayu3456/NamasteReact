@@ -36,6 +36,15 @@ JSdom is library which parses and interact with html just like browser.(testing 
 * jest configuration Jest  
 npx jest --init. 
 Install JSDOM Library. 
+Install @babel/preset-react to make jsx work in test cases. 
+include @babel/preset-react inside my babel config. 
+Install @testing - library/jest-dom for `toBeInTheDocument()` works .  
+npm i -D @testing-library/jest-dom
+import this and test this. 
+
+
+
+
 
 # Lets test the js first. 
 
@@ -46,6 +55,17 @@ Jest will track all the files present in the __tests__ folder. any js or ts file
 Pattern -> test.js , test.ts, spec.ts, spec.js 
 
 __ -> dunder 
+
+sum.test.js me test ka code likha hai. 
+
+# Now we can going to write the test cases for React. 
+1: Unit testing (only one component at a time)
+test whether the component is loaded or not. (contact component)
+
+
+
+
+
 
 
 
