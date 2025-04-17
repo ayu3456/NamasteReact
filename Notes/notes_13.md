@@ -53,7 +53,7 @@ JSdom is library which parses and interact with html just like browser.(testing 
 - if your file name is Header.test.js etc this will be treated as test file and jest will track them.
   Pattern -> test.js , test.ts, spec.ts, spec.js
 
-\_\_ -> dunder
+__-> dunder 
 
 sum.test.js me test ka code likha hai.
 

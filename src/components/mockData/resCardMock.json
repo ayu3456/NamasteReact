@@ -1,0 +1,69 @@
+{
+    "info": {
+        "id": "691730",
+        "name": "Big Bowl",
+        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/22/30548ac4-2e57-4c1d-ba73-8372f74a1ad2_691730.JPG",
+        "locality": "Fortaleza",
+        "areaName": "Kalyani Nagar",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+            "North Indian",
+            "Chinese",
+            "Tibetan",
+            "Desserts"
+        ],
+        "avgRating": 4.3,
+        "parentId": "434792",
+        "avgRatingString": "4.3",
+        "totalRatingsString": "1.3K+",
+        "sla": {
+            "deliveryTime": 58,
+            "lastMileTravel": 3,
+            "serviceability": "SERVICEABLE",
+            "slaString": "55-60 mins",
+            "lastMileTravelString": "3.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2025-04-18 00:00:00",
+            "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹129"
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-ec91c29f-f099-415b-b367-3ad1f90a41b5"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/pune/big-bowl-fortaleza-kalyani-nagar-rest691730",
+        "type": "WEBLINK"
+    }
+}
