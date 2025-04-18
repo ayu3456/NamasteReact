@@ -3,7 +3,7 @@
     "data": {
         "statusMessage": "done successfully",
         "pageOffset": {
-            "nextOffset": "CNg8EN08KICArYab2aaxDjDkCTgD",
+            "nextOffset": "CNg8EN08KIDgyKu9hunGETDkCTgB",
             "widgetOffset": {
                 "FoodPage_NavWidget": "",
                 "NewListingFirstInline_Theme": "",
@@ -49,7 +49,7 @@
                                 "title": "Cost: High to Low"
                             }
                         ],
-                        "restaurantCount": 69,
+                        "restaurantCount": 61,
                         "facetList": [
                             {
                                 "label": "Veg/Non-Veg",
@@ -170,59 +170,52 @@
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
-                                            "id": "31016",
-                                            "name": "CakeZone Patisserie",
-                                            "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/7af8f6ec-bca1-4437-9cb6-7a862f2c426c_09f41cf1-f892-4b2b-9aa9-e09658c1c74c.jpg",
-                                            "locality": "Sangamwadi",
-                                            "areaName": "Kalyani Nagar",
-                                            "costForTwo": "₹200 for two",
+                                            "id": "628463",
+                                            "name": "Kiosk Kaffee",
+                                            "cloudinaryImageId": "d4680a71533e82c95a66205f92c76cde",
+                                            "locality": "N Main Road",
+                                            "areaName": "Koregaon Park",
+                                            "costForTwo": "₹350 for two",
                                             "cuisines": [
-                                                "Bakery",
+                                                "Beverages",
                                                 "Desserts",
-                                                "Sweets",
-                                                "Ice Cream"
+                                                "Cafe",
+                                                "Snacks"
                                             ],
-                                            "avgRating": 4.4,
-                                            "parentId": "7003",
-                                            "avgRatingString": "4.4",
-                                            "totalRatingsString": "20K+",
+                                            "avgRating": 4.3,
+                                            "veg": true,
+                                            "parentId": "118722",
+                                            "avgRatingString": "4.3",
+                                            "totalRatingsString": "73",
                                             "promoted": true,
-                                            "adTrackingId": "cid=27887788~p=0~adgrpid=27887788#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=31016~plpr=COLLECTION~eid=9fec9ce8-ed79-4080-90d8-004b6a93afa3~srvts=1744893638786~collid=147970",
+                                            "adTrackingId": "cid=27696868~p=2~adgrpid=27696868#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=628463~plpr=COLLECTION~eid=1c27eb3a-b4dd-43e3-bc9d-92101e31e202~srvts=1744949396676~collid=147970",
                                             "sla": {
-                                                "deliveryTime": 36,
-                                                "lastMileTravel": 3.6,
+                                                "deliveryTime": 51,
+                                                "lastMileTravel": 4.4,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
-                                                "lastMileTravelString": "3.6 km",
+                                                "slaString": "50-55 mins",
+                                                "lastMileTravelString": "4.4 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2025-04-18 00:00:00",
+                                                "nextCloseTime": "2025-04-18 23:30:00",
                                                 "opened": true
                                             },
-                                            "badges": {
-                                                "textExtendedBadges": [
-                                                    {
-                                                        "iconId": "guiltfree/GF_Logo_android_3x",
-                                                        "shortDescription": "options available",
-                                                        "fontColor": "#7E808C"
-                                                    }
-                                                ]
-                                            },
+                                            "badges": {},
                                             "isOpen": true,
                                             "aggregatedDiscountInfoV2": {
-                                                "header": "60% OFF",
+                                                "header": "₹75 OFF",
                                                 "shortDescriptionList": [
                                                     {
-                                                        "meta": "Use TRYNEW",
-                                                        "discountType": "Percentage",
+                                                        "meta": "Use BFBINGE",
+                                                        "discountType": "Flat",
                                                         "operationType": "RESTAURANT"
                                                     }
                                                 ],
                                                 "descriptionList": [
                                                     {
-                                                        "meta": "60% off up to ₹120 | Use code TRYNEW",
-                                                        "discountType": "Percentage",
+                                                        "meta": "FLAT75 off | Use BFBINGE",
+                                                        "discountType": "Flat",
                                                         "operationType": "RESTAURANT"
                                                     }
                                                 ]
@@ -232,18 +225,7 @@
                                                 "entityBadges": {
                                                     "imageBased": {},
                                                     "textBased": {},
-                                                    "textExtendedBadges": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "",
-                                                                    "fontColor": "#7E808C",
-                                                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                                                    "shortDescription": "options available"
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
+                                                    "textExtendedBadges": {}
                                                 }
                                             },
                                             "orderabilityCommunication": {
@@ -271,10 +253,236 @@
                                             "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                         },
                                         "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
                                         },
                                         "cta": {
-                                            "link": "https://www.swiggy.com/city/pune/cakezone-patisserie-sangamwadi-kalyani-nagar-rest31016",
+                                            "link": "https://www.swiggy.com/city/pune/kiosk-kaffee-n-main-road-koregaon-park-rest628463",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_byName"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "608844",
+                                            "name": "SMOOR",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/11/0c5bb7fa-b9c7-45e1-aeb7-41c33ea7db57_608844.jpg",
+                                            "locality": "Meera Nagar",
+                                            "areaName": "Kalyani Nagar",
+                                            "costForTwo": "₹250 for two",
+                                            "cuisines": [
+                                                "Asian",
+                                                "Burgers",
+                                                "Italian",
+                                                "Thai",
+                                                "Sushi",
+                                                "Salads",
+                                                "Pastas",
+                                                "Pizzas",
+                                                "Mexican",
+                                                "Chinese"
+                                            ],
+                                            "avgRating": 4.5,
+                                            "parentId": "3506",
+                                            "avgRatingString": "4.5",
+                                            "totalRatingsString": "750",
+                                            "sla": {
+                                                "deliveryTime": 42,
+                                                "lastMileTravel": 4.6,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "40-45 mins",
+                                                "lastMileTravelString": "4.6 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-04-19 01:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "newg.png",
+                                                        "description": "Gourmet"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "aggregatedDiscountInfoV2": {
+                                                "header": "₹166 OFF",
+                                                "shortDescriptionList": [
+                                                    {
+                                                        "meta": "Use SWIGGY6",
+                                                        "discountType": "Flat",
+                                                        "operationType": "RESTAURANT"
+                                                    }
+                                                ],
+                                                "descriptionList": [
+                                                    {
+                                                        "meta": "Flat ₹166 Off | Use SWIGGY6",
+                                                        "discountType": "Flat",
+                                                        "operationType": "RESTAURANT"
+                                                    }
+                                                ]
+                                            },
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "Gourmet",
+                                                                    "imageId": "newg.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/pune/smoor-meera-nagar-kalyani-nagar-rest608844",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_byName"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "47147",
+                                            "name": "Marvel's 0 Cake and Bake",
+                                            "cloudinaryImageId": "vw8ucksdxuon1s12xdaj",
+                                            "locality": "Kharadi",
+                                            "areaName": "Kharadi",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "Fast Food",
+                                                "Desserts",
+                                                "Bakery"
+                                            ],
+                                            "avgRating": 3.8,
+                                            "parentId": "132835",
+                                            "avgRatingString": "3.8",
+                                            "totalRatingsString": "1.5K+",
+                                            "promoted": true,
+                                            "adTrackingId": "cid=27206022~p=7~adgrpid=27206022#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=47147~plpr=COLLECTION~eid=751f5f6d-e980-476a-8c31-b124fe9bdb64~srvts=1744949396676~collid=147970",
+                                            "sla": {
+                                                "deliveryTime": 59,
+                                                "lastMileTravel": 7.3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "55-60 mins",
+                                                "lastMileTravelString": "7.3 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-04-18 23:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                        "description": "pureveg"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "aggregatedDiscountInfoV2": {
+                                                "header": "20% OFF",
+                                                "shortDescriptionList": [
+                                                    {
+                                                        "meta": "Use TRYNEW",
+                                                        "discountType": "Percentage",
+                                                        "operationType": "RESTAURANT"
+                                                    }
+                                                ],
+                                                "descriptionList": [
+                                                    {
+                                                        "meta": "20% off up to ₹50 | Use code TRYNEW",
+                                                        "discountType": "Percentage",
+                                                        "operationType": "RESTAURANT"
+                                                    }
+                                                ]
+                                            },
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "pureveg",
+                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "4.0",
+                                                    "ratingCount": "1.4K+"
+                                                },
+                                                "source": "GOOGLE",
+                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/pune/marvels-0-cake-and-bake-kharadi-rest47147",
                                             "text": "RESTAURANT_MENU",
                                             "type": "WEBLINK"
                                         },
@@ -306,7 +514,7 @@
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2025-04-17 23:59:00",
+                                                "nextCloseTime": "2025-04-18 23:59:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -389,7 +597,7 @@
                                             "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                         },
                                         "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
                                         },
                                         "cta": {
                                             "link": "https://www.swiggy.com/city/pune/theobroma-viman-nagar-rest188935",
@@ -401,457 +609,33 @@
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
-                                            "id": "109753",
-                                            "name": "Kekiz The Cake Shop",
-                                            "cloudinaryImageId": "ace62be32a7a34c2c268161353168276",
-                                            "locality": "Akash Nagar",
-                                            "areaName": "Yerawada",
-                                            "costForTwo": "₹350 for two",
-                                            "cuisines": [
-                                                "Bakery"
-                                            ],
-                                            "avgRating": 4,
-                                            "veg": true,
-                                            "parentId": "116346",
-                                            "avgRatingString": "4.0",
-                                            "totalRatingsString": "356",
-                                            "promoted": true,
-                                            "adTrackingId": "cid=27209919~p=2~adgrpid=27209919#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=109753~plpr=COLLECTION~eid=ce867084-c2d1-4559-a36e-f6d54acf6103~srvts=1744893638786~collid=147970",
-                                            "sla": {
-                                                "deliveryTime": 17,
-                                                "lastMileTravel": 2.3,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "15-20 mins",
-                                                "lastMileTravelString": "2.3 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2025-04-17 22:15:00",
-                                                "opened": true
-                                            },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
-                                                        "description": "pureveg"
-                                                    }
-                                                ]
-                                            },
-                                            "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {
-                                                "header": "20% OFF",
-                                                "shortDescriptionList": [
-                                                    {
-                                                        "meta": "Use TRYNEW",
-                                                        "discountType": "Percentage",
-                                                        "operationType": "RESTAURANT"
-                                                    }
-                                                ],
-                                                "descriptionList": [
-                                                    {
-                                                        "meta": "20% off up to ₹50 | Use code TRYNEW",
-                                                        "discountType": "Percentage",
-                                                        "operationType": "RESTAURANT"
-                                                    }
-                                                ]
-                                            },
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "pureveg",
-                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "orderabilityCommunication": {
-                                                "title": {},
-                                                "subTitle": {},
-                                                "message": {},
-                                                "customIcon": {}
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {},
-                                            "externalRatings": {
-                                                "aggregatedRating": {
-                                                    "rating": "--"
-                                                }
-                                            },
-                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                                        },
-                                        "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
-                                        },
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/city/pune/kekiz-the-cake-shop-akash-nagar-yerawada-rest109753",
-                                            "text": "RESTAURANT_MENU",
-                                            "type": "WEBLINK"
-                                        },
-                                        "widgetId": "collectionV5RestaurantListWidget_byName"
-                                    },
-                                    {
-                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                                        "info": {
-                                            "id": "621781",
-                                            "name": "La Cherie Cheesecake",
-                                            "cloudinaryImageId": "16ef659384104734d2a2395e0a6a4362",
-                                            "locality": "Bhakti Apartments",
+                                            "id": "662220",
+                                            "name": "IGP Cakes",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/17/687865fb-6bb5-469b-ad8b-1241c8c4036c_662220.jpg",
+                                            "locality": "Kharadi-Mundhawa Road",
                                             "areaName": "Viman Nagar",
-                                            "costForTwo": "₹500 for two",
+                                            "costForTwo": "₹299 for two",
                                             "cuisines": [
+                                                "Desserts",
                                                 "Bakery"
                                             ],
                                             "avgRating": 4.4,
-                                            "parentId": "122433",
+                                            "veg": true,
+                                            "parentId": "392350",
                                             "avgRatingString": "4.4",
-                                            "totalRatingsString": "143",
-                                            "sla": {
-                                                "deliveryTime": 26,
-                                                "lastMileTravel": 1.8,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "25-30 mins",
-                                                "lastMileTravelString": "1.8 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2025-04-18 00:00:00",
-                                                "opened": true
-                                            },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "bolt/bolt%206.png",
-                                                        "description": "bolt!"
-                                                    },
-                                                    {
-                                                        "imageId": "Ratnesh_Badges/Rx_Awards_2025/Cheesecake.png",
-                                                        "description": "Delivery!"
-                                                    }
-                                                ]
-                                            },
-                                            "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {
-                                                "header": "20% OFF",
-                                                "shortDescriptionList": [
-                                                    {
-                                                        "meta": "Use TRYNEW",
-                                                        "discountType": "Percentage",
-                                                        "operationType": "RESTAURANT"
-                                                    }
-                                                ],
-                                                "descriptionList": [
-                                                    {
-                                                        "meta": "20% off up to ₹50 | Use code TRYNEW",
-                                                        "discountType": "Percentage",
-                                                        "operationType": "RESTAURANT"
-                                                    }
-                                                ]
-                                            },
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "bolt!",
-                                                                    "imageId": "bolt/bolt%206.png"
-                                                                }
-                                                            },
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "Delivery!",
-                                                                    "imageId": "Ratnesh_Badges/Rx_Awards_2025/Cheesecake.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "orderabilityCommunication": {
-                                                "title": {},
-                                                "subTitle": {},
-                                                "message": {},
-                                                "customIcon": {}
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {},
-                                            "externalRatings": {
-                                                "aggregatedRating": {
-                                                    "rating": "--"
-                                                }
-                                            },
-                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                                        },
-                                        "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
-                                        },
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/city/pune/la-cherie-cheesecake-bhakti-apartments-viman-nagar-rest621781",
-                                            "text": "RESTAURANT_MENU",
-                                            "type": "WEBLINK"
-                                        },
-                                        "widgetId": "collectionV5RestaurantListWidget_byName"
-                                    },
-                                    {
-                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                                        "info": {
-                                            "id": "41024",
-                                            "name": "Cake Dior",
-                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/5/068d2505-598e-4764-9ab3-25bfd971ded7_41024.jpg",
-                                            "locality": "Koregaon Park",
-                                            "areaName": "Kalyani Nagar",
-                                            "costForTwo": "₹350 for two",
-                                            "cuisines": [
-                                                "Desserts"
-                                            ],
-                                            "avgRating": 4.7,
-                                            "parentId": "54862",
-                                            "avgRatingString": "4.7",
-                                            "totalRatingsString": "3.9K+",
+                                            "totalRatingsString": "1.1K+",
                                             "promoted": true,
-                                            "adTrackingId": "cid=27760051~p=3~adgrpid=27760051#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=41024~plpr=COLLECTION~eid=b1654aef-df80-4ca7-b7d0-285431717012~srvts=1744893638786~collid=147970",
+                                            "adTrackingId": "cid=27663455~p=12~adgrpid=27663455#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=662220~plpr=COLLECTION~eid=c2caf898-c5d3-4502-8289-dbdfbc01c09a~srvts=1744949396676~collid=147970",
                                             "sla": {
-                                                "deliveryTime": 58,
+                                                "deliveryTime": 50,
                                                 "lastMileTravel": 4.8,
                                                 "serviceability": "SERVICEABLE",
-                                                "slaString": "55-60 mins",
+                                                "slaString": "50-55 mins",
                                                 "lastMileTravelString": "4.8 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2025-04-17 23:45:00",
-                                                "opened": true
-                                            },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "newg.png",
-                                                        "description": "Gourmet"
-                                                    }
-                                                ]
-                                            },
-                                            "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {
-                                                "header": "40% OFF",
-                                                "shortDescriptionList": [
-                                                    {
-                                                        "meta": "Use SWIGGYIT",
-                                                        "discountType": "Percentage",
-                                                        "operationType": "RESTAURANT"
-                                                    }
-                                                ],
-                                                "descriptionList": [
-                                                    {
-                                                        "meta": "40% off up to ₹80 | Use code SWIGGYIT",
-                                                        "discountType": "Percentage",
-                                                        "operationType": "RESTAURANT"
-                                                    }
-                                                ]
-                                            },
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "Gourmet",
-                                                                    "imageId": "newg.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "orderabilityCommunication": {
-                                                "title": {},
-                                                "subTitle": {},
-                                                "message": {},
-                                                "customIcon": {}
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {},
-                                            "externalRatings": {
-                                                "aggregatedRating": {
-                                                    "rating": "3.9",
-                                                    "ratingCount": "115"
-                                                },
-                                                "source": "GOOGLE",
-                                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                                            },
-                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                                        },
-                                        "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
-                                        },
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/city/pune/cake-dior-koregaon-park-kalyani-nagar-rest41024",
-                                            "text": "RESTAURANT_MENU",
-                                            "type": "WEBLINK"
-                                        },
-                                        "widgetId": "collectionV5RestaurantListWidget_byName"
-                                    },
-                                    {
-                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                                        "info": {
-                                            "id": "98428",
-                                            "name": "Bangalore Iyangar's Bakery",
-                                            "cloudinaryImageId": "f17a93ad5424b75ac34f455c2e2fea2f",
-                                            "locality": "Sakore Nagar",
-                                            "areaName": "Viman Nagar",
-                                            "costForTwo": "₹300 for two",
-                                            "cuisines": [
-                                                "Bakery",
-                                                "Desserts",
-                                                "Cakes and Pastries",
-                                                "Snacks"
-                                            ],
-                                            "avgRating": 4.7,
-                                            "parentId": "41321",
-                                            "avgRatingString": "4.7",
-                                            "totalRatingsString": "6.2K+",
-                                            "sla": {
-                                                "deliveryTime": 22,
-                                                "lastMileTravel": 1.9,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "20-25 mins",
-                                                "lastMileTravelString": "1.9 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2025-04-18 00:00:00",
-                                                "opened": true
-                                            },
-                                            "badges": {
-                                                "imageBadges": [
-                                                    {
-                                                        "imageId": "bolt/bolt%206.png",
-                                                        "description": "bolt!"
-                                                    }
-                                                ]
-                                            },
-                                            "isOpen": true,
-                                            "aggregatedDiscountInfoV2": {},
-                                            "type": "F",
-                                            "badgesV2": {
-                                                "entityBadges": {
-                                                    "imageBased": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "bolt!",
-                                                                    "imageId": "bolt/bolt%206.png"
-                                                                }
-                                                            }
-                                                        ]
-                                                    },
-                                                    "textBased": {},
-                                                    "textExtendedBadges": {}
-                                                }
-                                            },
-                                            "orderabilityCommunication": {
-                                                "title": {},
-                                                "subTitle": {},
-                                                "message": {},
-                                                "customIcon": {}
-                                            },
-                                            "differentiatedUi": {
-                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                                                "differentiatedUiMediaDetails": {
-                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                                                    "lottie": {},
-                                                    "video": {}
-                                                }
-                                            },
-                                            "reviewsSummary": {},
-                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                                            "restaurantOfferPresentationInfo": {},
-                                            "externalRatings": {
-                                                "aggregatedRating": {
-                                                    "rating": "--"
-                                                }
-                                            },
-                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                                        },
-                                        "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
-                                        },
-                                        "cta": {
-                                            "link": "https://www.swiggy.com/city/pune/bangalore-iyangars-bakery-sakore-nagar-viman-nagar-rest98428",
-                                            "text": "RESTAURANT_MENU",
-                                            "type": "WEBLINK"
-                                        },
-                                        "widgetId": "collectionV5RestaurantListWidget_byName"
-                                    },
-                                    {
-                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                                        "info": {
-                                            "id": "942717",
-                                            "name": "Truffle Temptation Cake",
-                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/16/e593f942-71b0-4012-880d-56ce5523e28b_942717.jpg",
-                                            "locality": "PMC WATER WADGAONSHERI",
-                                            "areaName": " Viman Nagar",
-                                            "costForTwo": "₹300 for two",
-                                            "cuisines": [
-                                                "Bakery"
-                                            ],
-                                            "avgRating": 3.7,
-                                            "veg": true,
-                                            "parentId": "552252",
-                                            "avgRatingString": "3.7",
-                                            "totalRatingsString": "49",
-                                            "promoted": true,
-                                            "adTrackingId": "cid=27677358~p=4~adgrpid=27677358#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=942717~plpr=COLLECTION~eid=576bbbe6-14f6-4d0c-9a31-028b3582dd94~srvts=1744893638786~collid=147970",
-                                            "sla": {
-                                                "deliveryTime": 36,
-                                                "lastMileTravel": 3.7,
-                                                "serviceability": "SERVICEABLE",
-                                                "slaString": "35-40 mins",
-                                                "lastMileTravelString": "3.7 km",
-                                                "iconType": "ICON_TYPE_EMPTY"
-                                            },
-                                            "availability": {
-                                                "nextCloseTime": "2025-04-18 06:00:00",
+                                                "nextCloseTime": "2025-04-18 23:59:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -922,10 +706,10 @@
                                             "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                         },
                                         "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
                                         },
                                         "cta": {
-                                            "link": "https://www.swiggy.com/city/pune/truffle-temptation-cake-pmc-water-wadgaonsheri-viman-nagar-rest942717",
+                                            "link": "https://www.swiggy.com/city/pune/igp-cakes-kharadi-mundhawa-road-viman-nagar-rest662220",
                                             "text": "RESTAURANT_MENU",
                                             "type": "WEBLINK"
                                         },
@@ -934,31 +718,237 @@
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
-                                            "id": "924723",
-                                            "name": "Cheesecake & Co.",
-                                            "cloudinaryImageId": "7ae6f59085f775974719b72cff168d7d",
-                                            "locality": "Sree Riddhi Enclave",
+                                            "id": "98428",
+                                            "name": "Bangalore Iyangar's Bakery",
+                                            "cloudinaryImageId": "f17a93ad5424b75ac34f455c2e2fea2f",
+                                            "locality": "Sakore Nagar",
                                             "areaName": "Viman Nagar",
                                             "costForTwo": "₹300 for two",
                                             "cuisines": [
+                                                "Bakery",
                                                 "Desserts",
-                                                "Bakery"
+                                                "Cakes and Pastries",
+                                                "Snacks"
                                             ],
-                                            "avgRating": 4.5,
-                                            "veg": true,
-                                            "parentId": "387417",
-                                            "avgRatingString": "4.5",
-                                            "totalRatingsString": "206",
+                                            "avgRating": 4.7,
+                                            "parentId": "41321",
+                                            "avgRatingString": "4.7",
+                                            "totalRatingsString": "6.2K+",
                                             "sla": {
-                                                "deliveryTime": 25,
-                                                "lastMileTravel": 1.5,
+                                                "deliveryTime": 21,
+                                                "lastMileTravel": 1.9,
                                                 "serviceability": "SERVICEABLE",
                                                 "slaString": "20-25 mins",
-                                                "lastMileTravelString": "1.5 km",
+                                                "lastMileTravelString": "1.9 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2025-04-18 00:00:00",
+                                                "nextCloseTime": "2025-04-19 00:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "bolt/bolt%206.png",
+                                                        "description": "bolt!"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "aggregatedDiscountInfoV2": {},
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "bolt!",
+                                                                    "imageId": "bolt/bolt%206.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/pune/bangalore-iyangars-bakery-sakore-nagar-viman-nagar-rest98428",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_byName"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "239941",
+                                            "name": "Chocolate Biclate",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/10/8080336c-2acb-4d65-a9d0-a7f0f51d9a9a_239941 (1).jpg",
+                                            "locality": "Sangamwadi",
+                                            "areaName": "Kalyani Nagar",
+                                            "costForTwo": "₹300 for two",
+                                            "cuisines": [
+                                                "Bakery",
+                                                "Desserts"
+                                            ],
+                                            "avgRating": 4.2,
+                                            "veg": true,
+                                            "parentId": "62386",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "679",
+                                            "promoted": true,
+                                            "adTrackingId": "cid=27896649~p=15~adgrpid=27896649#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=239941~plpr=COLLECTION~eid=852bff5e-4db9-4b86-88ac-5b1bca10a38f~srvts=1744949396677~collid=147970",
+                                            "sla": {
+                                                "deliveryTime": 45,
+                                                "lastMileTravel": 3,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "40-45 mins",
+                                                "lastMileTravelString": "3.0 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-04-18 23:00:00",
+                                                "opened": true
+                                            },
+                                            "badges": {
+                                                "imageBadges": [
+                                                    {
+                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                        "description": "pureveg"
+                                                    }
+                                                ]
+                                            },
+                                            "isOpen": true,
+                                            "aggregatedDiscountInfoV2": {
+                                                "header": "₹166 OFF",
+                                                "shortDescriptionList": [
+                                                    {
+                                                        "meta": "Use SWIGGY6",
+                                                        "discountType": "Flat",
+                                                        "operationType": "RESTAURANT"
+                                                    }
+                                                ],
+                                                "descriptionList": [
+                                                    {
+                                                        "meta": "Flat ₹166 Off | Use SWIGGY6",
+                                                        "discountType": "Flat",
+                                                        "operationType": "RESTAURANT"
+                                                    }
+                                                ]
+                                            },
+                                            "type": "F",
+                                            "badgesV2": {
+                                                "entityBadges": {
+                                                    "imageBased": {
+                                                        "badgeObject": [
+                                                            {
+                                                                "attributes": {
+                                                                    "description": "pureveg",
+                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "textBased": {},
+                                                    "textExtendedBadges": {}
+                                                }
+                                            },
+                                            "orderabilityCommunication": {
+                                                "title": {},
+                                                "subTitle": {},
+                                                "message": {},
+                                                "customIcon": {}
+                                            },
+                                            "differentiatedUi": {
+                                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                "differentiatedUiMediaDetails": {
+                                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                    "lottie": {},
+                                                    "video": {}
+                                                }
+                                            },
+                                            "reviewsSummary": {},
+                                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                            "restaurantOfferPresentationInfo": {},
+                                            "externalRatings": {
+                                                "aggregatedRating": {
+                                                    "rating": "--"
+                                                }
+                                            },
+                                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                                        },
+                                        "analytics": {
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
+                                        },
+                                        "cta": {
+                                            "link": "https://www.swiggy.com/city/pune/chocolate-biclate-sangamwadi-kalyani-nagar-rest239941",
+                                            "text": "RESTAURANT_MENU",
+                                            "type": "WEBLINK"
+                                        },
+                                        "widgetId": "collectionV5RestaurantListWidget_byName"
+                                    },
+                                    {
+                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                                        "info": {
+                                            "id": "648994",
+                                            "name": "FNP Cakes By Ferns N Petals",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/6/35fd1b59-13b9-4a73-aa28-e19118816a6e_648994.jpg",
+                                            "locality": "Sakore Nagar",
+                                            "areaName": "Viman Nagar",
+                                            "costForTwo": "₹499 for two",
+                                            "cuisines": [
+                                                "Desserts",
+                                                "Bakery",
+                                                "Sweets",
+                                                "Ice Cream",
+                                                "Beverages",
+                                                "North Indian",
+                                                "Chinese"
+                                            ],
+                                            "avgRating": 4.4,
+                                            "veg": true,
+                                            "parentId": "339638",
+                                            "avgRatingString": "4.4",
+                                            "totalRatingsString": "923",
+                                            "sla": {
+                                                "deliveryTime": 36,
+                                                "lastMileTravel": 1.9,
+                                                "serviceability": "SERVICEABLE",
+                                                "slaString": "35-40 mins",
+                                                "lastMileTravelString": "1.9 km",
+                                                "iconType": "ICON_TYPE_EMPTY"
+                                            },
+                                            "availability": {
+                                                "nextCloseTime": "2025-04-18 23:59:00",
                                                 "opened": true
                                             },
                                             "badges": {
@@ -968,8 +958,8 @@
                                                         "description": "bolt!"
                                                     },
                                                     {
-                                                        "imageId": "Ratnesh_Badges/Rx_Awards_2025/Newcomers.png",
-                                                        "description": "Delivery!"
+                                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                        "description": "pureveg"
                                                     }
                                                 ]
                                             },
@@ -1004,8 +994,8 @@
                                                             },
                                                             {
                                                                 "attributes": {
-                                                                    "description": "Delivery!",
-                                                                    "imageId": "Ratnesh_Badges/Rx_Awards_2025/Newcomers.png"
+                                                                    "description": "pureveg",
+                                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
                                                                 }
                                                             }
                                                         ]
@@ -1039,10 +1029,10 @@
                                             "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                         },
                                         "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
                                         },
                                         "cta": {
-                                            "link": "https://www.swiggy.com/city/pune/cheesecake-and-co-sree-riddhi-enclave-viman-nagar-rest924723",
+                                            "link": "https://www.swiggy.com/city/pune/fnp-cakes-by-ferns-n-petals-sakore-nagar-viman-nagar-rest648994",
                                             "text": "RESTAURANT_MENU",
                                             "type": "WEBLINK"
                                         },
@@ -1051,48 +1041,38 @@
                                     {
                                         "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                                         "info": {
-                                            "id": "33933",
-                                            "name": "Firangi Bake",
-                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/3/8021d881-3d7d-4357-8b80-31ac84fbfa58_33933.jpg",
-                                            "locality": "Dhanori",
-                                            "areaName": "Lohegaon",
-                                            "costForTwo": "₹400 for two",
+                                            "id": "213853",
+                                            "name": "WarmOven Cake & Desserts",
+                                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/29/d44b4cae-5218-49a6-8e55-76e44f3b0235_213853.JPG",
+                                            "locality": "Tukaram Nagar",
+                                            "areaName": "Kharadi",
+                                            "costForTwo": "₹200 for two",
                                             "cuisines": [
-                                                "Pizzas",
-                                                "Pastas",
-                                                "Italian",
-                                                "Mexican",
-                                                "Healthy Food",
+                                                "Bakery",
                                                 "Desserts",
-                                                "Beverages"
+                                                "Ice Cream",
+                                                "Beverages",
+                                                "Cakes"
                                             ],
-                                            "avgRating": 4.1,
-                                            "parentId": "3952",
-                                            "avgRatingString": "4.1",
-                                            "totalRatingsString": "1.2K+",
+                                            "avgRating": 4.2,
+                                            "parentId": "9696",
+                                            "avgRatingString": "4.2",
+                                            "totalRatingsString": "5.5K+",
                                             "promoted": true,
-                                            "adTrackingId": "cid=27882847~p=6~adgrpid=27882847#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=33933~plpr=COLLECTION~eid=39f09f93-1d20-4274-9e2e-be0818503d42~srvts=1744893638786~collid=147970",
+                                            "adTrackingId": "cid=27919639~p=18~adgrpid=27919639#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=213853~plpr=COLLECTION~eid=be85b0db-8c2e-4478-87bf-85636c6b6c70~srvts=1744949396677~collid=147970",
                                             "sla": {
-                                                "deliveryTime": 45,
-                                                "lastMileTravel": 5,
+                                                "deliveryTime": 46,
+                                                "lastMileTravel": 4.9,
                                                 "serviceability": "SERVICEABLE",
                                                 "slaString": "45-50 mins",
-                                                "lastMileTravelString": "5.0 km",
+                                                "lastMileTravelString": "4.9 km",
                                                 "iconType": "ICON_TYPE_EMPTY"
                                             },
                                             "availability": {
-                                                "nextCloseTime": "2025-04-17 23:59:00",
+                                                "nextCloseTime": "2025-04-19 05:00:00",
                                                 "opened": true
                                             },
-                                            "badges": {
-                                                "textExtendedBadges": [
-                                                    {
-                                                        "iconId": "guiltfree/GF_Logo_android_3x",
-                                                        "shortDescription": "options available",
-                                                        "fontColor": "#7E808C"
-                                                    }
-                                                ]
-                                            },
+                                            "badges": {},
                                             "isOpen": true,
                                             "aggregatedDiscountInfoV2": {
                                                 "header": "₹166 OFF",
@@ -1116,18 +1096,7 @@
                                                 "entityBadges": {
                                                     "imageBased": {},
                                                     "textBased": {},
-                                                    "textExtendedBadges": {
-                                                        "badgeObject": [
-                                                            {
-                                                                "attributes": {
-                                                                    "description": "",
-                                                                    "fontColor": "#7E808C",
-                                                                    "iconId": "guiltfree/GF_Logo_android_3x",
-                                                                    "shortDescription": "options available"
-                                                                }
-                                                            }
-                                                        ]
-                                                    }
+                                                    "textExtendedBadges": {}
                                                 }
                                             },
                                             "orderabilityCommunication": {
@@ -1155,10 +1124,10 @@
                                             "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                                         },
                                         "analytics": {
-                                            "context": "seo-data-8c503214-7946-42a9-b336-60138d77f28d"
+                                            "context": "seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3"
                                         },
                                         "cta": {
-                                            "link": "https://www.swiggy.com/city/pune/firangi-bake-dhanori-lohegaon-rest33933",
+                                            "link": "https://www.swiggy.com/city/pune/warmoven-cake-and-desserts-tukaram-nagar-kharadi-rest213853",
                                             "text": "RESTAURANT_MENU",
                                             "type": "WEBLINK"
                                         },
@@ -4248,7 +4217,7 @@
                         "lat": "18.5696139",
                         "lng": "73.90401609999999",
                         "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36",
-                        "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-8c503214-7946-42a9-b336-60138d77f28d\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
+                        "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-3b57e34b-d8a1-4fa1-827a-e725741538f3\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
                         "id": "meta_data",
                         "metaInfo": {
                             "pageType": "FOOD_HOME_PAGE",
@@ -4276,8 +4245,8 @@
         "cacheExpiryTime": 240,
         "nextFetch": 1
     },
-    "tid": "f2540e72-11d5-4481-b5c8-bac85124c8df",
-    "sid": "k36cf828-d854-4744-ae1d-27fbdea4b4c5",
-    "deviceId": "a307d92d-3fcd-4a66-969b-b846917cee97",
-    "csrfToken": "WBE2NTmlrtED-jMY4tIlJnvLhRy7AV_zQVI4Ubc8"
+    "tid": "4c41a726-3f94-4469-8973-5a8aa1111293",
+    "sid": "k3ld26e8-fef2-408b-84ae-2fd71ce3b21f",
+    "deviceId": "9811af26-6d6f-44b8-158f-5b2a256d4255",
+    "csrfToken": "CzeYpeqfWaPA-X7y0mkzE6wy1UVjocZovnvgpjEc"
 }

@@ -26,14 +26,41 @@ test("Should render the body component with Search Button", async () => {
     )
   );
 
+  const cardBeforeSearch = screen.getAllByTestId("resCard");
+  expect(cardBeforeSearch.length).toBe(9);
+
   const searchBtn = screen.getByRole("button", { name: "Search" });
 
   const searchInput = screen.getByTestId("searchInput");
 
-  fireEvent.change(searchInput, { target: { value: "pizza" } });
+  fireEvent.change(searchInput, { target: { value: "smoor" } });
   fireEvent.click(searchBtn);
 
-  const cards = screen.getAllByTestId("resCard");
+  const cardsAfterSearch = screen.getAllByTestId("resCard");
 
-  expect(cards.length).toBe(4);
+  expect(cardsAfterSearch.length).toBe(1);
+});
+
+test("Should filter top rated resturant", async () => {
+  await act(() =>
+    render(
+      <BrowserRouter>
+        <Body />
+      </BrowserRouter>
+    )
+  );
+
+  const cardBeforeFilter = screen.getAllByTestId('resCard')
+  //expect(cardBeforeFilter.length).toBe(9)
+
+  const topRatedButton = screen.getByRole("button",{name:"Top-Rated Resturant"})
+  //expect(topRatedButton).toBeInTheDocument()
+
+  fireEvent.click(topRatedButton)
+
+  const cardsAfterFilter = screen.getAllByTestId('resCard')
+  expect(cardsAfterFilter.length).toBe(2);
+
+
+
 });
