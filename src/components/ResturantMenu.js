@@ -4,7 +4,7 @@ import useResturantMenu from "../../utils/useResturantMenu";
 import ResturantCategory from "./ResturantCategory";
 import { useState } from "react";
 
-const RecturantMenu = () => {
+const ResturantMenu = () => {
 
   
 
@@ -45,4 +45,4 @@ const RecturantMenu = () => {
   );
 };
 
-export default RecturantMenu;
+export default ResturantMenu;

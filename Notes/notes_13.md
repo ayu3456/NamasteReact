@@ -79,7 +79,9 @@ Flow Testing
 
 1: Search Feature Testing, Suppose if we write pizza in the search box , it should filter out pizza resturant from the body. We have to write a test case for that. 
 
-When u are doing any state updates,then u have to wrap your component inside the act function.  
+When u are doing any state updates,then u have to wrap your component inside the act function. 
+
+# Add to Cart Testing.
 
 
 
