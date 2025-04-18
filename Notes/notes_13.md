@@ -72,7 +72,29 @@ using describe method
 done
 
 # Writing test cases in Resturant Card component. 
-Learn how to test props to component of it. 
+Learn how to test props to component of it.  
+
+# Integration Testing. (when multiple component work together)
+Flow Testing  
+
+1: Search Feature Testing, Suppose if we write pizza in the search box , it should filter out pizza resturant from the body. We have to write a test case for that. 
+
+When u are doing any state updates,then u have to wrap your component inside the act function.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

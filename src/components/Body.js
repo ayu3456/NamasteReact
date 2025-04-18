@@ -46,11 +46,15 @@ const Body = () => {
   if (!listOfResturants.length) return <Shimmer />;
 
   return (
+
     <div className="body">
+
       <div className="filter flex items-center">
         <div className="m-4 p-4">
           <input
+
             type="text"
+            data-testid = 'searchInput'
             className="border border-solid border-black text-2xl"
             value={searchText}
             onChange={(e) => {
@@ -116,6 +120,7 @@ const Body = () => {
           <h2>No restaurants found</h2>
         )}
       </div>
+
     </div>
   );
 };
